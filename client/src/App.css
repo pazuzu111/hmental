@@ -276,10 +276,13 @@ code {
 hr {
   border-bottom-color: rgba(0, 0, 0, 0.25); }
 
+.left {
+  text-align: left;
+}
 /* Inner */
 .inner {
   margin: 0 auto;
-  width: 75rem;
+  width: 48rem;
   max-width: calc(100% - 6rem); }
   @media screen and (max-width: 480px) {
     .inner {
@@ -1846,9 +1849,10 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("images/oldbooks.png");
-  background-color: yellow;
-  background-blend-mode: multiply;
+/*  background-image: url("images/oldbooks.png");
+*/
+/*background-color: yellow;
+*/  background-blend-mode: multiply;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2083,11 +2087,11 @@ ul.icons {
 
 /* CTA */
 #cta {
-  background-color: #ce1b28;
+  background-color: #242424;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(images/cta01.jpg);
-  background-position: bottom;
+/*  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(images/cta01.jpg);
+*/  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -2432,6 +2436,14 @@ body {
     z-index: -1;
     opacity: .2;
    }
+.backcolor {
+  background-color: #242424;
+  color: white;
+  padding: 30px;
+  -webkit-box-shadow: 0px 2px 21px 0px rgba(136,224,20,1);
+-moz-box-shadow: 0px 2px 21px 0px rgba(136,224,20,1);
+box-shadow: 0px 2px 21px 0px rgba(136,224,20,1);
+}
 
 #header {
   -moz-align-items: center;

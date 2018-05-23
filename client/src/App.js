@@ -8,7 +8,6 @@ const Header = () => {
         <header id="header">
             <a className="logo" href="index.html">Hive Mentality</a>
             <nav>
-                <a href="#menu">Menu</a>
             </nav>
         </header>
     )
@@ -28,14 +27,17 @@ export default  class App extends Component {
                     <h1>Welcome</h1>
                     <h3>A way to contribute to the future <br />
                    </h3>
+                               <button>learn more </button>
+
                 </div>
             </section>
 
 
             <section id="cta" className="wrapper">
-                <div className="inner">
+                <div className="inner backcolor">
                     <h2>Our Purpose</h2>
-                    <p>Our goal is to put as many people as we can thorugh college through a series of rewards and giveaways.
+                    <p className="left">Our goal is to put as many people as we can through college by with rewards and giveaways.
+                    Students from various universities will log on to the platform and be able to compete in games and win scholarship money.
                     There are many bright people out there who cannot afford to go to college. I think as a community
                     we want our children and our fellow man to be educated and involved in the upkeep of our world.
                     We must nurture the next generation to be smarter and wiser than the one before. We believe it is
@@ -45,8 +47,39 @@ export default  class App extends Component {
                     </div>
             </section>
 
+
+            <section id="cta" className="wrapper">
+                <div className="inner left">
+                    <h2> Students </h2>
+                    <p> There will be a roster of students who will have access to different scholarships.
+                        First you must register for the scholarship, if it is a game then you will compete
+                         and based on your results you may win your scholarship funds. Students may also get
+                         lucky and win funds through raffles amongst other methods.
+                    </p>
+                </div>
+
+                <div className="inner left">
+                    <h2> Problem </h2>
+                    <p>We want to deal with student debt by helping as many students as we can.
+                        With the fuds that we raise, we will give a portion away to students.</p>
+                </div>
+
+                <div className="inner left">
+                    <h2> Solutions </h2>
+                    <p>We want to deal with student debt by helping as many students as we can.
+                        With the fuds that we raise, we will give a portion away to students.</p>
+                </div>
+
+                <div className="inner left">
+                        <h2> funds </h2>
+                        <p>50% of funds raised will go to scholarship funds, 25% to investors, and 25% to maintenance and upkeep of movement</p>
+                </div>
+            </section>
+
+
+
             <section className="wrapper">
-                <div className="inner">
+                <div className="inner left">
                     <header className="special">
                         <h2>Self-driven communities</h2>
                         <h4>Hive mentality is dedicated to contributing to the future by putting the next generation through college</h4>
@@ -109,6 +142,8 @@ export default  class App extends Component {
                     </div>
                 </div>
             </section>
+
+
 
 
 
