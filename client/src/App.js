@@ -36,19 +36,34 @@ export default  class App extends Component {
             <section id="cta" className="wrapper">
                 <div className="inner backcolor">
                     <h2>Our Purpose</h2>
-                    <p className="left">Our goal is to put as many people as we can through college by with rewards and giveaways.
+                    <p className="left">Our goal is to put as many people as we can through college by awarding scholarships.
                     Students from various universities will log on to the platform and be able to compete in games and win scholarship money.
                     There are many bright people out there who cannot afford to go to college. I think as a community
                     we want our children and our fellow man to be educated and involved in the upkeep of our world.
                     We must nurture the next generation to be smarter and wiser than the one before. We believe it is
                     important to have a HIVE MENTALITY in order for the world to continue running. Specifically in education, a hive mentality means
                     more of us will be able to get an education by the hands of the commmunity. It is like paying taxes, however, your tax
-                    is going to put someone through college. </p>
+                    is going to put someone through college and ensure we have a brighter future. </p>
                     </div>
             </section>
 
 
             <section id="cta" className="wrapper">
+
+                <div className="inner left">
+                    <h2> Problems </h2>
+                    <p>Too much student debt and not enough support for education.</p>
+                </div>
+
+                <div className="inner left">
+                    <h2> Solutions </h2>
+                    <p>Our solution is to make people aware of the education crisis and make them realize that
+                    they have the power to make a change. As long as everyone in the hive contributes, our
+                    purpose will be fulfilled. Unlike a traditional fundraiser, Our platform gives
+                    the whole world a chance to particpate and become a valid member of the hive.
+                    </p>
+                </div>
+
                 <div className="inner left">
                     <h2> Students </h2>
                     <p> There will be a roster of students who will have access to different scholarships.
@@ -59,15 +74,13 @@ export default  class App extends Component {
                 </div>
 
                 <div className="inner left">
-                    <h2> Problem </h2>
-                    <p>We want to deal with student debt by helping as many students as we can.
-                        With the fuds that we raise, we will give a portion away to students.</p>
-                </div>
-
-                <div className="inner left">
-                    <h2> Solutions </h2>
-                    <p>We want to deal with student debt by helping as many students as we can.
-                        With the fuds that we raise, we will give a portion away to students.</p>
+                    <h2> Investors and Donators </h2>
+                    <p> Investors and Donators are the heart and soul of our operation.
+                        Without donations, the Hive Mentality platform cannot operate.
+                        Students receive scholarships from the donations that we receive.
+                        There is no selling point, If you are an investor then you are a hive member which means
+                        you are dedicated to supporting education and the evolution of the hive.
+                    </p>
                 </div>
 
                 <div className="inner left">
