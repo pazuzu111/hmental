@@ -48,7 +48,7 @@ export default  class App extends Component {
             </section>
 
 
-            <section id="cta" className="wrapper">
+            <section className="wrapper grey">
 
                 <div className="inner left">
                     <h2> Problems </h2>
@@ -74,8 +74,8 @@ export default  class App extends Component {
                 </div>
 
                 <div className="inner left">
-                    <h2> Investors and Donators </h2>
-                    <p> Investors and Donators are the heart and soul of our operation.
+                    <h2> Investors and Donors </h2>
+                    <p> Investors and Donors are the heart and soul of our operation.
                         Without donations, the Hive Mentality platform cannot operate.
                         Students receive scholarships from the donations that we receive.
                         There is no selling point, If you are an investor then you are a hive member which means

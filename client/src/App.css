@@ -264,7 +264,9 @@ strong, b {
   color: #555555; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #555555; }
+  color: #fffff;
+  font-weight: bold;
+}
 
 blockquote {
   border-left-color: rgba(0, 0, 0, 0.25); }
@@ -1824,7 +1826,7 @@ ul.icons {
   z-index: 1; }
   @media screen and (max-width: 1280px) {
     .wrapper {
-      padding: 4rem 0 2rem 0 ; } }
+      padding: 4rem 0 4rem 0 ; } }
   @media screen and (max-width: 736px) {
     .wrapper {
       padding: 3rem 0 1rem 0 ; } }
@@ -2442,9 +2444,14 @@ body {
   padding: 30px;
       width: 48rem;
 
-  -webkit-box-shadow: 0px 0px 21px 0px rgba(136,224,20,1);
--moz-box-shadow: 0px 0px 21px 0px rgba(136,224,20,1);
-box-shadow: 0px 0px 21px 0px rgba(136,224,20,1);
+  -webkit-box-shadow: 0px 0px 21px 0px black;
+-moz-box-shadow: 0px 0px 21px 0px black;
+box-shadow: 0px 0px 21px 0px black;
+}
+
+.grey {
+  background: darkslategrey;
+  color: white;
 }
 
 #header {
