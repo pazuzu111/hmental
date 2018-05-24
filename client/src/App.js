@@ -6,14 +6,14 @@ import './App.css';
 const Header = () => {
     return (
         <header id="header">
-            <a className="logo" href="index.html">Hive Mentality</a>
+            <a className="logo" href="#">Hive Mentality</a>
             <nav>
             </nav>
         </header>
     )
 }
 
-export default  class App extends Component {
+export default class App extends Component {
      scroll = (id) => {
 
         let  el = document.getElementById(`${id}`)
@@ -48,7 +48,7 @@ export default  class App extends Component {
                     we want our children and our fellow man to be educated and involved in the upkeep of our world.
                     We must nurture the next generation to be smarter and wiser than the one before. We believe it is
                     important to have a HIVE MENTALITY in order for the world to continue running. Specifically in education, a hive mentality means
-                    more of us will be able to get an education by the hands of the commmunity. It is like paying taxes, however, your tax
+                    more of us will be able to get an education by the hands of the commmunity. It is like paying taxes except, your tax
                     is going to put someone through college and ensure we have a brighter future. </p>
                     </div>
             </section>
@@ -65,7 +65,7 @@ export default  class App extends Component {
                     <h2> Solutions </h2>
                     <p>Our solution is to make people aware of the education crisis and make them realize that
                     they have the power to make a change. As long as everyone in the hive contributes, our
-                    purpose will be fulfilled. Unlike a traditional fundraiser, Our platform gives
+                    goal will be achieved. Unlike a traditional fundraiser, Our platform gives
                     the whole world a chance to particpate and become a valid member of the hive.
                     </p>
                 </div>
@@ -84,14 +84,23 @@ export default  class App extends Component {
                     <p> Investors and Donors are the heart and soul of our operation.
                         Without donations, the Hive Mentality platform cannot operate.
                         Students receive scholarships from the donations that we receive.
-                        There is no selling point, If you are an investor then you are a hive member which means
+                        There is no selling point, If you are an Donor then you are a hive member which means
                         you are dedicated to supporting education and the evolution of the hive.
                     </p>
                 </div>
 
                 <div className="inner left">
                         <h2> funds </h2>
-                        <p>50% of funds raised will go to scholarship funds, 25% to investors, and 25% to maintenance and upkeep of movement</p>
+                        <p>70% of funds raised will go to scholarship funds, 10% to investors, and 20% to maintenance and upkeep of movement.
+                        Any left-overs will be split for scholarships and for upkeep.</p>
+                </div>
+
+                <div className="inner left">
+                        <h2> Overall </h2>
+                        <p>Bees all work togther to preserve the survival of the colony. I think if we approach education
+                        the way bees tend to their hive, we would all benefit from it as we should. By
+                        donating or investing you are helping us build the biggest home for scholarship aid.
+                        The more we strive for the survival of the colony, the more we evolve as one.  </p>
                 </div>
             </section>
 
