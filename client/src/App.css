@@ -1860,7 +1860,7 @@ ul.icons {
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
-  height: 35rem !important;
+  height: 50rem !important;
   min-height: 35rem;
   overflow: hidden;
   position: relative;
@@ -2039,9 +2039,10 @@ ul.icons {
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 1; }
+    z-index: 1;
+  }
+
   #banner:after {
-    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
     content: ' ';
     display: block;
     height: 100%;

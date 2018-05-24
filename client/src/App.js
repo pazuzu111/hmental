@@ -14,6 +14,12 @@ const Header = () => {
 }
 
 export default  class App extends Component {
+     scroll = (id) => {
+
+        let  el = document.getElementById(`${id}`)
+        window.scrollTo({'behavior': 'smooth','left': 0,'top': el.offsetTop - 145})
+    }
+
   render() {
     return (
       <div className="App is-preload">
@@ -27,7 +33,7 @@ export default  class App extends Component {
                     <h1>Welcome</h1>
                     <h3>A way to contribute to the future <br />
                    </h3>
-                               <button>learn more </button>
+                               <button onClick={(e) => this.scroll('cta')}>learn more </button>
 
                 </div>
             </section>
