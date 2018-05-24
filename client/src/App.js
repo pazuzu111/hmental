@@ -17,7 +17,7 @@ export default  class App extends Component {
      scroll = (id) => {
 
         let  el = document.getElementById(`${id}`)
-        window.scrollTo({'behavior': 'smooth','left': 0,'top': el.offsetTop - 145})
+        window.scrollTo({'behavior': 'smooth','left': 0,'top': el.offsetTop - 45})
     }
 
   render() {
@@ -31,7 +31,7 @@ export default  class App extends Component {
             <section id="banner">
                 <div className="inner">
                     <h1>Welcome</h1>
-                    <h3>A way to contribute to the future <br />
+                    <h3>particpate and help make our future brighter <br />
                    </h3>
                                <button onClick={(e) => this.scroll('cta')}>learn more </button>
 
@@ -40,7 +40,7 @@ export default  class App extends Component {
 
 
             <section id="cta" className="wrapper">
-                <div className="inner backcolor">
+                <div className="inner">
                     <h2>Our Purpose</h2>
                     <p className="left">Our goal is to put as many people as we can through college by awarding scholarships.
                     Students from various universities will log on to the platform and be able to compete in games and win scholarship money.
